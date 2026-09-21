@@ -1,0 +1,33 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+
+# Database & SQLite files
+data/app.db
+*.db
+*.sqlite3
+
+# Vector Store / Processed runtime artifacts
+data/vector_store/
+data/processed/
+
+# Cache & Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+desktop.ini
+.DS_Store
+Thumbs.db
